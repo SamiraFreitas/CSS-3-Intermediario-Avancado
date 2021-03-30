@@ -1,0 +1,55 @@
+/* Esses ja foram visto
+Seletor universal 
+*{
+    border: 1px solid red;
+}
+Seletor de texto 
+h1{
+    color: green;
+}
+Seletor de classe
+.azul{
+    color: blue;
+}
+Seletor de id
+#id{
+    
+}
+
+Seletor de filho - seleciona um elemento que e filho direto do outro 
+li>a {
+color: red;
+text-decoration: none;
+}
+Seletor de irmao adjacente- Seleciona um elemento que é descendente de outro elemento especificado e não apenas o filho direto desse elemento  
+li a{
+    color: red;
+    text-decoration: none;
+}
+p a {
+    color: green;
+}
+Seletor de filho adjacente- seleciona um elemento que é o irmao proximo de outro  
+h1+p{
+    color: royalblue;
+}
+Seletor de irmao geral- seleciona um elemento que é o irmao do outro, embora ele nao precisa ser o elemento diretamente precedente 
+h3 ~p{
+    color: salmon;
+}
+*/
+
+/*HERANÇA E ESPECIFIDADE 
+body{
+    color: red;
+    border: 1px solid blue;
+  
+}
+*/
+/*Dois seletores iguais o ultimo e aplicado */
+#pagina p{
+    color: blue !important;
+}
+#pagina p{
+    color: red;
+}/*se um seletor for mais especifico que outro a regra mais especifica será aplicada(terá precedencia sobre regras mais gerais)*/
