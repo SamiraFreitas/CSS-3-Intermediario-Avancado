@@ -1,0 +1,59 @@
+/*ul{
+    
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    padding: 5px 20px;
+ 
+    background: url(../imagem/seta.png ) no-repeat left
+    center;
+}*/
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url(../imagem/menu.png) no-repeat left bottom;
+
+}
+a:hover {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+#Home .home a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+#Sobre .sobre a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+#Servicos .servicos a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+#Noticias .noticias a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+#Contato .contato a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
